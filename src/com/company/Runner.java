@@ -15,5 +15,11 @@ public class Main {
 
         System.out.println(barn);
         System.out.println("Dusty Trail is in space:" + barn.findHourseSpace("Dusty Trail"));
+
+        barn.consolidate();
+
+        System.out.println(barn);
+        System.out.println("Dusty Trail is in space:" + barn.findHourseSpace("Dusty Trail"));
+
     }
 }
