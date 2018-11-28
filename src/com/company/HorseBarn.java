@@ -1,8 +1,8 @@
 package com.company;
 
 public class HorseBarn {
-    private Horse()spaces {
-    public HorseBarn(Horse()spaces){
+    private Horse[]spaces;
+    public HorseBarn(Horse[]spaces){
             this.spaces = spaces;
     }
     public int findHorseSpace(String name){
@@ -13,7 +13,7 @@ public class HorseBarn {
         }
         return -1;
     }
-    public void consolidation() {
+    public void consolidation(){
         for (int i = 0; i< this.spaces.length-1; i++) {
             if (this.spaces[i] == null) {
                 for (int j = i+1; j <this.spaces.length; j++) {
